@@ -23,8 +23,8 @@ class alpaca_dataset:
     dataset: str = "alpaca_dataset"
     train_split: str = "train"
     test_split: str = "valid"
-    train_data_path: str = "/kaggle/working/SakiRin/LLM/data/bigvul/alpaca/bigvul_0-512_train.json"
-    valid_data_path: str = "/kaggle/working/SakiRin/LLM/data/bigvul/alpaca/bigvul_0-512_validate.json"
+    train_data_path: str = "/kaggle/working/SakiRin/LLM/data/bigvul/alpaca/bigvul_512-1024_train.json"
+    valid_data_path: str = "/kaggle/working/SakiRin/LLM/data/bigvul/alpaca/bigvul_512-1024_validate.json"
   
     # train_data_path: str = "PATH/to/train_data"
     # valid_data_path: str = "PATH/to/valid_data"  
